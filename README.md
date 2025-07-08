@@ -218,12 +218,14 @@ Invoke-RestMethod -Uri "http://localhost:3000/api/transactions"
 
 ```
 crypto-exchange-api/
-├── app.js              # ไฟล์หลักของแอพ
-├── package.json        # dependencies
-├── .env.example        # ตัวอย่างการตั้งค่า
+├── app.js              
+├── package.json        
+├── .env.example        
 ├── config/
-│   └── database.js     # การตั้งค่าฐานข้อมูล
-├── models/             # โมเดลและ relationships
+│   └── database.js     
+├── docs/
+│   └── er-diagram.png   
+├── models/             
 │   ├── index.js
 │   ├── User.js
 │   ├── Cryptocurrency.js
@@ -231,14 +233,14 @@ crypto-exchange-api/
 │   ├── FiatBalance.js
 │   ├── Order.js
 │   └── Transaction.js
-├── controllers/        # business logic
+├── controllers/        
 │   ├── UserController.js
 │   ├── OrderController.js
 │   └── TransactionController.js
 ├── routes/
-│   └── api.js         # API endpoints
+│   └── api.js         
 └── seeders/
-    └── seed.js        # ข้อมูลตัวอย่าง
+    └── seed.js        
 ```
 
 ## คำสั่งที่ใช้
